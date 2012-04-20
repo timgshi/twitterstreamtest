@@ -1,3 +1,4 @@
 distribute==0.6.24
+pycurl==7.19.0
 pymongo==2.1.1
 wsgiref==0.1.2
