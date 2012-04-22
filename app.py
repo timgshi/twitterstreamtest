@@ -32,7 +32,7 @@ class Client:
                   'username': content['user']['screen_name'],
                   'created_at': content['created_at']}
         self.collection.insert(tweet)
-        print self.collection.count()
+        # print self.collection.count()
       except (KeyError, TypeError):
         pass
 
